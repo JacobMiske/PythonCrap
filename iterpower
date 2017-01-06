@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Dec 29 20:34:43 2016
+
+@author: LENOVO USER
+"""
+
+base = input()
+exp = input >= 0
+def iterpower(base, exp):
+    while exp

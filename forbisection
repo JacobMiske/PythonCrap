@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov 24 13:15:24 2016
+
+@author: LENOVO USER
+"""
+
+
+guessing = True
+for guessing:
+    point = input('h for too high, l for too low, c for just right   ')
+    guess = (high + low) // 2
+    print('Is your number {0}'.format(guess))
+    if point == 'l':
+        high = guess
+        guess = (high + low) // 2
+    elif point =='h':
+        low = guess
+        guess = (high +low) // 2
+    elif point == 'c':
+        print('Your number is {0}'.format(guess))
