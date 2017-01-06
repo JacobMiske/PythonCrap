@@ -1,0 +1,2 @@
+# PythonCrap
+random python functions
