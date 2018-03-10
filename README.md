@@ -1,2 +1,2 @@
-# PythonCrap
-random python functions
+# Python Functions
+Assorted python functions
